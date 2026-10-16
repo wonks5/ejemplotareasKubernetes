@@ -46,7 +46,7 @@ metadata:
   name: front-ingress
   namespace: ejemplo
 spec:
-  ingressClassName: nginx
+  ingressClassName: traefik
   rules:
   - host: frontend.io
     http:
