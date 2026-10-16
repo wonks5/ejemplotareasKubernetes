@@ -51,7 +51,7 @@ metadata:
   name: backend-ingress
   namespace: ejemplo
 spec:
-  ingressClassName: nginx
+  ingressClassName: traefik
   rules:
   - host: backend.io
     http:
